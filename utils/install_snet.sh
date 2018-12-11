@@ -39,9 +39,9 @@ pip3 install -e .
 cd ${SINGNET_REPOS} && \
 mkdir snet-daemon && \
 cd snet-daemon && \
-wget -q https://github.com/singnet/snet-daemon/releases/download/v0.1.2/snetd-0.1.2.tar.gz && \
-tar -xvf snetd-0.1.2.tar.gz && \
-mv snetd-0.1.2/snetd-linux-amd64 /usr/bin/snetd
+wget -q https://github.com/singnet/snet-daemon/releases/download/v0.1.3/snetd-0.1.3.tar.gz && \
+tar -xvf snetd-0.1.3.tar.gz && \
+mv snetd-0.1.3/snetd-linux-amd64 /usr/bin/snetd
 
 # Language dependent extra installation steps
 if [[ "$LANGUAGE" = "cpp" ]]; then
