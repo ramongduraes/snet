@@ -28,6 +28,7 @@ apt-get install -y \
 apt-get install -y nodejs npm
 
 # Install Python 3.6
+apt-get install -y software-properties-common
 add-apt-repository ppa:deadsnakes/ppa
 apt-get update
 apt-get install python3.6
