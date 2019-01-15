@@ -114,6 +114,7 @@ main.main()
 ```
 </p></details>
 
+
 Notice that if you're only interested in publishing a service (i.e. in a Docker container), installing SNET Daemon should be enough.
 
 Refer to [SNET-Daemon](https://github.com/singnet/snet-daemon) for further information including a list of available commands.
@@ -231,6 +232,7 @@ If it doesn't, it may be the case that the `blockchain` script is using an inade
 
 </p></details>
 
+
 Refer to [SNET-CLI](https://github.com/singnet/snet-cli) for further information, including a list of available commands.
 
 ## Docker Container Installation Script:
@@ -293,6 +295,7 @@ TODO: change this once SNET CLI pip is working
   You can uninstall SNET CLI by navigating to its folder (i.e. `snet-cli`, obtained via `git clone`) and running `sudo rm -r $(find . -name '*.egg-info')`. Remove its binaries by running `sudo rm $(which) snet`.
   
 </p></details>
+
 
 To clean up your machine (i.e. delete all of SNET files and its virtual environment), run:
 
