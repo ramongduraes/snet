@@ -176,7 +176,7 @@ pip3 install virtualenv && \
 cd ~ && \
 mkdir Workspaces && \
 cd Workspaces && \
-sudo virtualenv snet && \
+python3 -m virtualenv snet && \
 source snet/bin/activate
 
 export SNET_DIR=~/Workspaces/snet
@@ -235,8 +235,12 @@ If it doesn't, it may be the case that the `blockchain` script is using an inade
 
 Refer to [SNET-CLI](https://github.com/singnet/snet-cli) for further information, including a list of available commands.
 
-## Docker Container Installation Script:
 
+<details>
+  <summary> 
+    ## Docker Container Installation Script:
+  </summary>
+  <p>
 Here's a quick script to install both SNET Daemon and SNET CLI inside a docker container. 
 
 ```bash
@@ -270,6 +274,8 @@ cd snet-cli && \
 ./scripts/blockchain install && \
 pip3 install -e .
 ```
+  </p>
+</details>
 
 ## Conclusion
 
