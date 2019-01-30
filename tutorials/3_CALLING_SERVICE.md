@@ -23,6 +23,9 @@ Say that this will mostly be done through SNET DApp (or at least be way easier t
 
 3) MPE, channels, open and iniialize one
 
+USE +30days +NUMBER_OF_BLOCKS instead of just checking current block and adding an arbitrary number.
+
+
 Refer to [MPE Contracts](https://dev.singularitynet.io/docs/all/mpe/mpe/)
 
 

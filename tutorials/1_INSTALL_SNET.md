@@ -22,18 +22,16 @@ SNET Daemon is available as pre-compiled binaries for Linux and macOS at [Github
 
 ```bash
 # Install SNET Daemon dependencies
-sudo apt-get update
+sudo apt-get update && \
 sudo apt-get install -y wget
 
-# Install SNET Daemon
+# Install SNET Daemon, delete downloaded folder and its files
 sudo mkdir snet-daemon && \
 cd snet-daemon && \
 sudo wget -q https://github.com/singnet/snet-daemon/releases/download/v0.1.5/snet-daemon-v0.1.5-linux-amd64.tar.gz && \
 sudo tar -xvf snet-daemon-v0.1.5-linux-amd64.tar.gz  && \
-sudo mv ./snet-daemon-v0.1.5-linux-amd64/snetd /usr/bin/snetd
-
-# Delete folder and downloaded files
-cd ..
+sudo mv ./snet-daemon-v0.1.5-linux-amd64/snetd /usr/bin/snetd && \
+cd .. && \
 sudo rm -rf snet-daemon
 ```
 
