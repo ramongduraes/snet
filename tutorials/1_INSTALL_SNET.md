@@ -1,6 +1,6 @@
 # Install SingularityNET
 
-> SNET-Daemon v0.1.5 | SNET-CLI v0.1.9
+> SNET-Daemon v0.1.6 | SNET-CLI v0.1.9
 
 This tutorial will guide you through the steps required to have working versions of all of SingularityNET components so that you can either publish your own AI/machine learning service onto the platform or use someone else's service through SNET's Command Line Interface (CLI). 
 
@@ -21,16 +21,14 @@ This tutorial will guide you through installing SNET Daemon and SNET CLI.
 SNET Daemon is available as pre-compiled binaries for Linux and macOS at [Github](https://github.com/singnet/snet-daemon/releases/). The script below installs a few dependencies, downloads SNET Daemon, moves it to the user's bin folder and cleans up.
 
 ```bash
-# Install SNET Daemon dependencies
+# Install SNET Daemon dependencies, SNET Daemon, delete downloaded folder and its files
 sudo apt-get update && \
-sudo apt-get install -y wget
-
-# Install SNET Daemon, delete downloaded folder and its files
+sudo apt-get install -y wget && \
 sudo mkdir snet-daemon && \
 cd snet-daemon && \
-sudo wget -q https://github.com/singnet/snet-daemon/releases/download/v0.1.5/snet-daemon-v0.1.5-linux-amd64.tar.gz && \
-sudo tar -xvf snet-daemon-v0.1.5-linux-amd64.tar.gz  && \
-sudo mv ./snet-daemon-v0.1.5-linux-amd64/snetd /usr/bin/snetd && \
+sudo wget -q https://github.com/singnet/snet-daemon/releases/download/v0.1.6/snet-daemon-v0.1.6-linux-amd64.tar.gz && \
+sudo tar -xvf snet-daemon-v0.1.6-linux-amd64.tar.gz  && \
+sudo mv ./snet-daemon-v0.1.6-linux-amd64/snetd /usr/bin/snetd && \
 cd .. && \
 sudo rm -rf snet-daemon
 ```
