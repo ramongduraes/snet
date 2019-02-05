@@ -5,13 +5,6 @@ ENV SNET_ROOT=/root/snet
 RUN mkdir -p ${SNET_ROOT} && \
     cd ${SNET_ROOT}
 
-# Installing SNET (snet-cli and snet-daemon + dependencies)
-RUN git clone https://github.com/ramongduraes/snet.git &&\
-    cd snet/utils &&\
-    ./install_snet.sh &&\
-    cd ../.. &&\
-    rm -rf snet
-
 # SNET Daemon v0.1.6
 # Update, install SNET Daemon and its dependencies
 RUN apt-get update && \
