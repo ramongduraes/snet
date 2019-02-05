@@ -26,5 +26,10 @@ update service metadata
 
 update service model
 
+## Claiming funds
+
+explain etcd (distributed DB that keeps the signatures of all the service's transactions) and its mapping. 
+*Emphasize how important this is since the service provider could lose all the tokens/users could make infinite calls it .etcd files are lost.*
+
 ___
 > << Previous: [CALL SERVICE](TODO) | Next: [CLAIM FUNDS](TODO) >>
