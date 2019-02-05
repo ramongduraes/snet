@@ -20,7 +20,11 @@ Here are a few programming language-specific tutorials you can follow to publish
 
 - [OpenCog](TODO): add link to exaplain opencog as well
 
+## Updating published service
 
+update service metadata 
 
-> Previous: [CALL](TODO)
-> Next: [CLAIM](TODO)
+update service model
+
+___
+> << Previous: [CALL SERVICE](TODO) | Next: [CLAIM FUNDS](TODO) >>

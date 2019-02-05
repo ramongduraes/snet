@@ -4,7 +4,7 @@
 
 This tutorial will guide you through the steps required to have working versions of all of SingularityNET components so that you can either publish your own AI/machine learning service onto the platform or use someone else's service through SNET's Command Line Interface (CLI). 
 
-If you're interested in installing SNET components inside a [Docker](https://www.docker.com/) container, a Docker installation script has been provided.
+If you're interested in installing SNET components inside a [Docker](https://www.docker.com/) container, installation scripts have been provided.
 
 ## Introduction
 
@@ -238,22 +238,13 @@ It might be the case that you have not properly installed the header files and s
 
 Refer to [SNET-CLI](https://github.com/singnet/snet-cli) for further information, including a list of available commands.
 
-
-<details>
-  <summary> 
-    ## Docker Container Installation Script:
-  </summary>
-  <p>
-Here's a quick script to install both SNET Daemon and SNET CLI inside a docker container. 
-
-  </p>
-</details>
-
 ## Conclusion
 
-You now have a working SingularityNET environment! The commands listed here were condensed into a [bash script](TODO) as well as a [Dockerfile](TODO).
+You now have a working SingularityNET environment! The commands listed here were condensed into bash scripts ([SNET CLI](./snet_cli_install.sh), [SNET Daemon](./snet_daemon_install.sh)) as well as a [Dockerfile](./Dockerfile).
 
-**Next: [Set up a session](TODO)**
+___
+
+> Next: [SET UP A SESSION](./2_SESSION.md) >>
 
 ___
 

@@ -62,6 +62,4 @@ To delete your organizations, simply run `snet organization delete ORG_ID`. You 
 
 ____
 
-Previous: [INSTALL](TODO)
-
-Next: [CALL SERVICE](TODO)
+> << Previous: [INSTALL SNET COMPONENTS](TODO) | Next: [CALL A SERVICE](TODO) >>

@@ -28,10 +28,9 @@ USE +30days +NUMBER_OF_BLOCKS instead of just checking current block and adding 
 
 Refer to [MPE Contracts](https://dev.singularitynet.io/docs/all/mpe/mpe/)
 
+___
 
-Previous: [IDENTITY](TODO)
-
-Next: [PUBLISH](TODO)
+> << Previous: [SET UP A SESSION](TODO) | Next: [PUBLISH A SERVICE](TODO) >>
 
 ___ 
 
