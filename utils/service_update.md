@@ -8,12 +8,11 @@
     - Activate snet-cli virtual environment
     - Verify its version agaist latest / update:
         - cd to snet-cli
-        - git fetch upstream
-        - git merge upstream/master
+        - git pull
         - ./scripts/blockchain install
         - pip3 install -e .
     - Create the service metadata 
-        - snet service metadata-init service/service_spec/ "SERVICE DISPLAY NAME" 0xCEb196e0236C5B4EE62d5C87692284FBd52fCBD0 --endpoints http://54.203.198.53:7067 --fixed-price 0
+        - snet service metadata-init service/service_spec/ "SERVICE DISPLAY NAME" 0xCEb196e0236C5B4EE62d5C87692284FBd52fCBD0 --endpoints "http://54.203.198.53:7067 ou https://bh.singularitynet.io:7067 " --fixed-price 1e-8
         - change display name, endpoint
         - snet service metadata-add-description --url "" --description ""
     - Publish the service
